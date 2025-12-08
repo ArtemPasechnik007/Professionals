@@ -3,6 +3,8 @@
 
 ## Установка и настройка
 
+<img width="661" height="548" alt="image" src="https://github.com/user-attachments/assets/2754c173-cc95-4cad-8eca-d6b23d62a23f" />
+
 * Скачайте и установите согласно инструкциям последнюю версию Blender 2.8 с [оффициального сайта](https://www.blender.org/download/).
 * Откройте Blender, в верхнем меню выберите `Edit > Preferences`. В открывшемся окне настроек в боковой панели выберите пункт `Add-ons`. Нажмите на кнопку `Install...` в правом верхнем углу окна. В диалоговом окне откройте путь к папке с аддоном [clever-show/blender-addon](https://disk.yandex.ru/d/HvILYqX_sC1IMQ) и выберите файл `addon.py`. Нажмите `Install Add-on from file...`. Аддон установлен.
 * После установки аддона поставьте "галочку" напротив аддона `Import-Export: clever-show animation (.csv)` для активации аддона.
@@ -31,4 +33,5 @@
 * `Documentation` - ведет на страницу документации аддона
 * `Report a bug` - ведет на страницу issues репозитория clever-show
 * `Remove` - удаляет аддон (перед установкой новой версии рекомендуется удалить старую)
-  [Краткий гайд по установке](https://disk.yandex.ru/i/U5111TrbRINScQ).
+  
+[Краткий гайд по установке](https://disk.yandex.ru/i/U5111TrbRINScQ).
