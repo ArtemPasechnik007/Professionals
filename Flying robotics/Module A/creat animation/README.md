@@ -1,7 +1,8 @@
 # Модуль анимации
 Анимация Шоу дронов в целом ничем не отличается от обычной анимации в Blender 3D
 
-[пример](https://github.com/user-attachments/assets/2df9b1f2-35f9-4043-a39e-b482b135a614)
+![полет-_online-video-cutter com_](https://github.com/user-attachments/assets/421dde73-bfdc-43e0-be2f-cb07fd388613)
+
 
 План выполнения анимации:
 1. Создание окружения 
