@@ -34,4 +34,7 @@
 * `Report a bug` - ведет на страницу issues репозитория clever-show
 * `Remove` - удаляет аддон (перед установкой новой версии рекомендуется удалить старую)
   
+<img width="564" height="644" alt="image" src="https://github.com/user-attachments/assets/f39353ad-ec60-43cc-ae5a-bbe266405278" />
+
+  
 [Краткий гайд по установке](https://disk.yandex.ru/i/U5111TrbRINScQ).
