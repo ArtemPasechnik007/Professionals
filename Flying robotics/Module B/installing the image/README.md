@@ -9,7 +9,7 @@
 ## Шаги установки
 
 ### 1. Скачивание образа
-- Загрузите ZIP-файл с образом системы для Raspberry Pi [образ 23 версии для шоу(clover_v0.23.img.zip)](https://github.com/CopterExpress/clover/releases/tag/v0.23)
+- Загрузите ZIP-файл с образом системы для Raspberry Pi [образ 23 версии для шоу](https://github.com/CopterExpress/clover/releases/download/v0.23/clover_v0.23.img.zip)
 - Распакуйте архив (при необходимости) для получения файла образа (обычно с расширением `.img`)
 
 ### 2. Установка balenaEtcher
