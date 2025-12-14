@@ -19,7 +19,7 @@
 http://192.168.11.1
 ```
 
----
+
 
 <img width="602" height="320" alt="image" src="https://github.com/user-attachments/assets/d028a2eb-7985-4fb5-92b9-95c2f09eb3a2" />
 
@@ -46,7 +46,7 @@ http://192.168.11.1
 http://192.168.11.1
 ```
 
----
+
 
 **Режимы работы Wi-Fi адаптера Raspberry Pi:**
 
@@ -95,13 +95,15 @@ http://192.168.11.1
 
 После выполнения этих шагов Raspberry Pi переподключится к вашей домашней Wi-Fi сети как клиент. Для доступа к веб-интерфейсу потребуется узнать новый IP-адрес устройства в вашей локальной сети.
 
+---
+
 Перейдем к навигации нашего дрона 
 
 # Навигация по картам ArUco-маркеров
 
 Модуль `aruco_map` распознает карты ArUco-маркеров как единое целое и поддерживает навигацию с использованием механизма **Vision Position Estimate (VPE)**.
 
----
+
 
 ### Конфигурация системы
 
@@ -162,3 +164,46 @@ rosrun aruco_pose genmap.py length x y dist_x dist_y first -o имя_файла.
 rosrun aruco_pose genmap.py 0.33 2 4 1 1 0 -o test_map.txt
 ```
 Создает карту 2×4 маркеров размером 0.33 м с расстоянием 1 м между ними, начиная с ID 0.
+
+---
+
+Устанавливаем требуемые файлы для шоу
+
+# Установка ПО clever-show на образ clever v0.23
+Настройте подключение к WiFi сети вашего роутера согласно [инструкции](https://clover.coex.tech/ru/network.html#%D0%BF%D0%B5%D1%80%D0%B5%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B0%D0%B4%D0%B0%D0%BF%D1%82%D0%B5%D1%80%D0%B0-%D0%B2-%D1%80%D0%B5%D0%B6%D0%B8%D0%BC-%D0%BA%D0%BB%D0%B8%D0%B5%D0%BD%D1%82%D0%B0)
+
+Обновите репозитории apt:
+```bash
+sudo apt-get update
+```
+
+Загрузите репозиторий clever-show и установите необходимые для клиента зависимости
+```
+git clone https://github.com/CopterExpress/clever-show.git --branch python3
+sudo chown -R root:root /home/pi/clever-show/
+sudo pip3 install -r /home/pi/clever-show/drone/requirements.txt --upgrade
+```
+
+Установите chrony и установите конфигурацию по умолчанию:
+```bash
+sudo apt-get install -y chrony
+```
+
+```bash
+sudo cp /home/pi/clever-show/examples/chrony/client.conf /etc/chrony/chrony.conf
+sudo systemctl restart chrony
+```
+
+Скопируйте файлы сервисов clever-show и запустите их:
+```bash 
+sudo cp /home/pi/clever-show/builder/assets/clever-show.service /lib/systemd/system/
+sudo systemctl enable clever-show.service
+sudo systemctl start clever-show.service
+
+
+sudo cp /home/pi/clever-show/builder/assets/failsafe.service /lib/systemd/system/
+sudo systemctl enable failsafe.service
+sudo systemctl start failsafe.service
+```
+После успешной установки перезапустите RPi и проверьте наличине вашего дрона в сервере 
+
