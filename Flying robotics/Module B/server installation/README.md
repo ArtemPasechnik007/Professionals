@@ -24,6 +24,10 @@
 1. Установите галочку **☑ Install for all users**
 2. Проверьте путь установки: `C:\Program Files\Python39`
 3. Нажмите **Install**
+<img width="974" height="598" alt="image" src="https://github.com/user-attachments/assets/a3e5ce6d-d91a-4239-84b1-caba708f23cb" />
+<img width="974" height="595" alt="image" src="https://github.com/user-attachments/assets/5d6c1543-9b8f-4c49-a5d4-64cee77932bd" />
+<img width="974" height="595" alt="image" src="https://github.com/user-attachments/assets/2f42fffe-0a89-4f60-ae9e-27f4128847f3" />
+
 
 ## 2. Подготовка сервера Clever Show
 
@@ -49,6 +53,8 @@ Quamash
 selectors2
 six
 ```
+<img width="426" height="592" alt="image" src="https://github.com/user-attachments/assets/a10b034c-c078-41df-be6f-2ebd74e68704" />
+
 
 ## 3. Установка зависимостей
 
@@ -74,6 +80,8 @@ python server.py
 ## 5. Решение проблем с отображением дрона
 
 Если после запуска сервера дрон не отображается:
+<img width="1362" height="856" alt="image" src="https://github.com/user-attachments/assets/3ea08430-6ed4-494c-99d0-47b4d182fc96" />
+
 
 ### 5.1 Изменение метрики сети
 1. Откройте **Панель управления**
