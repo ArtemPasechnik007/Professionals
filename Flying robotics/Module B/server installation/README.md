@@ -32,7 +32,7 @@
 ## 2. Подготовка сервера Clever Show
 
 ### 2.1 Скачивание архива
-- Скачайте архив `clever-show-0.4-alpha.6`
+- Скачайте архив [clever-show-0.4-alpha.6](https://github.com/CopterExpress/clever-show/archive/refs/tags/v0.4-alpha.6.zip)
 - **Рекомендуется:** Сохраните архив на диск `C:\` для удобства
 
 ### 2.2 Распаковка архива
