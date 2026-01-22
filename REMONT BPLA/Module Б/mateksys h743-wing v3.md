@@ -16,6 +16,8 @@
 - Размеры: 54×36×13 мм.
 - Вес: 30 г с USB-удлинителем на плате.
 
+<img width="720" height="1280" alt="image" src="https://github.com/user-attachments/assets/0625ead0-b6b6-45bb-83b5-e110fb6da15c" />
+
 
 <img width="800" height="1066" alt="image" src="https://github.com/user-attachments/assets/b1e37322-7ebd-4ac3-8928-12dc05083787" />
 
