@@ -4,6 +4,7 @@
 - Sensirion SDP3X: SENS_EN_SDP3X
 - TE MS4525: SENS_EN_MS4525DO
 - TE MS5525: SENS_EN_MS5525DS
+
 Вам также следует проверить, что ASPD_PRIMARY равно 1 (см. следующий раздел — это значение по умолчанию).
 
 
