@@ -17,10 +17,12 @@
 
 
 # Распиновка
-<img width="1600" height="600" alt="image" src="https://github.com/user-attachments/assets/ccddfd1d-505f-4080-a176-98fd4b379f7c" />
-
 
 <img width="480" height="215" alt="image" src="https://github.com/user-attachments/assets/7c76faf9-2284-4914-85a7-2cd9439dea08" />
+
+
+<img width="1600" height="600" alt="image" src="https://github.com/user-attachments/assets/ccddfd1d-505f-4080-a176-98fd4b379f7c" />
+
 
 
 <img width="232" height="320" alt="image" src="https://github.com/user-attachments/assets/4698dbd1-178e-42f8-a6f9-b4e19c87729e" />
