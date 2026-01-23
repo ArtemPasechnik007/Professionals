@@ -25,7 +25,7 @@
 
 
 
-<img width="232" height="320" alt="image" src="https://github.com/user-attachments/assets/4698dbd1-178e-42f8-a6f9-b4e19c87729e" />
+1. <img width="232" height="320" alt="image" src="https://github.com/user-attachments/assets/4698dbd1-178e-42f8-a6f9-b4e19c87729e" />
 
 
-<img width="232" height="320" alt="image" src="https://github.com/user-attachments/assets/44d7ee71-f755-4b97-828b-2b7031638203" />
+2. <img width="232" height="320" alt="image" src="https://github.com/user-attachments/assets/44d7ee71-f755-4b97-828b-2b7031638203" />
