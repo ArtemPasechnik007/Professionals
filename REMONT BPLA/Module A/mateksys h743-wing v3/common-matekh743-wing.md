@@ -4,9 +4,8 @@
 Mateksys H743-Wing/SLIM/MINI/WLITE
 ==================================
 
-.. image:: ../../../images/matekh743-wing.png
-     :target: ../_images/matekh743-wing.png
-    
+<img width="1269" height="735" alt="image" src="https://github.com/user-attachments/assets/995de63e-7c6c-4620-b9a1-051632368b11" />
+
 
 the above image and some content courtesy of `mateksys.com <http://www.mateksys.com/>`__
 
