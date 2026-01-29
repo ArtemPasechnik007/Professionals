@@ -47,13 +47,12 @@ Specifications
 
 Pinout
 ======
-
-.. image:: ../../../images/mambaf405-mini_pinout_a.jpg
-    :target: ../_images/mambaf405-mini_pinout_a.jpg
+<img width="1586" height="2016" alt="image" src="https://github.com/user-attachments/assets/dfa5c5f8-0d89-4b54-a234-c2797ef1aab2" />
 
 
-.. image:: ../../../images/mambaf405-mini_pinout_b.jpg
-    :target: ../_images/mambaf405-mini_pinout_b.jpg
+<img width="1559" height="918" alt="image" src="https://github.com/user-attachments/assets/ab6cbb51-53ca-47a4-b373-fbdd1481f255" />
+
+
 
 UART Mapping
 ============
